@@ -1,10 +1,16 @@
 import React from "react";
+import Tasks from "../Tasks";
+import TasksContextProvider from "../../context/TasksContext";
+import Form from "../Form";
 
 function App() {
   return (
-    <div>
-      <h1>App</h1>
-    </div>
+    <TasksContextProvider>
+      <div>
+        <Form />
+        <Tasks />
+      </div>
+    </TasksContextProvider>
   );
 }
 
