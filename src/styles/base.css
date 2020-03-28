@@ -1,0 +1,26 @@
+* {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background-color: #f7f8f9;
+  color: #6b7c93;
+}
+
+ul,
+p {
+  font-family: "Gotham Book", Helvetica, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Gotham Bold", Helvetica, sans-serif;
+}
