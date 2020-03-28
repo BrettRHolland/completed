@@ -1,3 +1,3 @@
 # Completed
 
-A simple to-do list app created to learn more about context.
+A simple to-do list app that uses hooks and local storage.
